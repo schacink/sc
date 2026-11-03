@@ -35,18 +35,18 @@ REGULAR_INSTANCE_TYPES=(
 )
 
 SPOT_INSTANCE_TYPES=(
-  "ml.g6e.12xlarge"
-  "ml.g4dn.2xlarge"
-  "ml.g6e.2xlarge"
-  "ml.g4dn.xlarge"
-  "ml.g4dn.16xlarge"
-  "ml.g4dn.4xlarge"
-  "ml.g4dn.8xlarge"
-  "ml.g6e.xlarge"
-  "ml.g6e.4xlarge"
   "ml.g6e.16xlarge"
+  "ml.g6.16xlarge"
+  "ml.g5.16xlarge"
+  "ml.g6e.12xlarge"
+  "ml.g6.12xlarge"
+  "ml.g5.12xlarge"
   "ml.g6e.8xlarge"
-  "ml.g4dn.12xlarge"
+  "ml.g6.8xlarge"
+  "ml.g5.8xlarge"
+  "ml.g6.4xlarge"
+  "ml.g6e.4xlarge"
+  "ml.g4dn.16xlarge"
 )
 
 write_self_contained_files() {
